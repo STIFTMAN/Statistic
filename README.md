@@ -1,41 +1,50 @@
 <h1>Statistic</h1>
 This small javascript library is containing following functions:
 
+<h2>Including file</h2>
+Write
+'<script language="javascript" type="text/javascript" src="statistic.js"></script>'
+to your head.
+
+<h2>Use</h2>
+Example:<br>
+var result = statistic.arithmetic_mean(myArray)
+
 <h2>Functions</h2>
 
-<li>valid_input(array)</li>
+<li><code>valid_input(array)</code></li>
 Checking, if elements of input array are rational numbers.<br>
 Return value is true, if all elements are rational numbers or returning false if not.
 <br><br>
-<li>arithmetic_mean(array)</li>
+<li><code>arithmetic_mean(array)</code></li>
 Calculating the arithmetic mean of input array.<br>
 Return value is arithmetic mean on success and NaN on failure.
 <br><br>
-<li>median(array)</li>
+<li><code>median(array)</code></li>
 Calculating the median of input array.<br>
 Returning median on success and NaN on failure.
 <br><br>
-<li>standard_deviation(arr)</li>
+<li><code>standard_deviation(arr)</code></li>
 Calculating the standard deviation of input array.<br>
 Returning standard deviation on sucess and NaN on failure.
 <br><br>
-<li>pearson_correlation_coefficient(arrayX, arrayY)</li>
+<li><code>pearson_correlation_coefficient(arrayX, arrayY)</code></li>
 Calcutaing pearson correlation coefficient of input array.<br>
 Returning pearson correlation coefficient and NaN on failure.
 <br><br>
-<li>correlation_coefficient(arrayX, arrayY)</li>
+<li><code>correlation_coefficient(arrayX, arrayY)</code></li>
 Calcutaing correlation coefficient of input array.<br>
 Returning correlation coefficient and NaN on failure.
 <br><br>
-<li>regression_function(arrayX, arrayY)</li>
+<li><code>regression_function(arrayX, arrayY)</code></li>
 Calcutaing regression function of input array.<br>
-Returning array with arr[0] = k and arr[1] = d and NaN on failure.
+Returning array with arr[0] = k and arr[1] = d and NaN on failure. Using function Y = K*X + D .
 <br><br>
-<li>predict_y(k,d,y)</li>
+<li><code>predict_y(k,d,y)</code></li>
 Calcutaing x with given parameters from <code>regression_function</code><br>
 Returning array with arr[0] = k and arr[1] = d and NaN on failure.
 <br><br>
-<li>predict_x(k,d,x)</li>
+<li><code>predict_x(k,d,x)</code></li>
 Calcutaing y with given parameters from <code>regression_function</code><br>
 Returning array with arr[0] = k and arr[1] = d and NaN on failure.
 <br><br>
