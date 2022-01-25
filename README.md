@@ -1,5 +1,5 @@
 <h1>Statistic</h1>
-This small javascript library is containing following functions:
+This small javascript library is containing statistic functions for regression analysis.
 
 <h2>Including file</h2>
 Write
