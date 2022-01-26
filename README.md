@@ -8,8 +8,8 @@ to your head.
 
 <h2>Use</h2>
 Example:<br>
-var myArray = [l,2,3,4]<br>
-var result = statistic.arithmetic_mean(myArray)<br> 
+var myArray = [l,2,3,4];<br>
+var result = statistic.arithmetic_mean(myArray);<br> 
 // result = 2.5
 
 <h2>Functions</h2>
