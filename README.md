@@ -58,22 +58,23 @@ Make sure that, if you are using <code>pearson_correlation_coefficient</code> , 
 For example:
 
 Your data
-
-X # Y<br>
-#########<br>
-1.0 # 2.0<br>
-1.3 # 2.6<br>
-1.7 # 2.4<br>
-2.1 # 2.7<br>
-2.0 # 2.8<br>
-2.5 # 3.0<br>
-
+<pre>
+X # Y
+#########
+1.0 # 2.0
+1.3 # 2.6
+1.7 # 2.4
+2.1 # 2.7
+2.0 # 2.8
+2.5 # 3.0
+</pre>
 
 Your array have to be like this:
 
-
-var arr1 = [ 1.0, 1.3, 1.7, 2.1, 2.0, 2.5 ] -> All X values<br>
-var arr2 = [ 2.0, 2.6, 2.4, 2.7, 2.8, 3.0 ] -> All Y values<br>
+<pre>
+var arr1 = [ 1.0, 1.3, 1.7, 2.1, 2.0, 2.5 ] -> All X values
+var arr2 = [ 2.0, 2.6, 2.4, 2.7, 2.8, 3.0 ] -> All Y values
+</pre>
 
 Matching
 
