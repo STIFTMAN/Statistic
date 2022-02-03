@@ -3,14 +3,16 @@ This small javascript library is containing statistic functions for regression a
 
 <h2>Including file</h2>
 Write
-'<script language="javascript" type="text/javascript" src="statistic.js"></script>'
+<code><script language="javascript" type="text/javascript" src="statistic.js"></script></code>
 to your head.
 
 <h2>Use</h2>
-Example:<br>
+Example:
+<pre>
 var myArray = [l,2,3,4];<br>
 var result = statistic.arithmetic_mean(myArray);<br> 
 // result = 2.5
+</pre>
 
 <h2>Functions</h2>
 
@@ -59,7 +61,7 @@ For example:
 
 Your data
 <pre>
-X # Y
+ X  #  Y
 #########
 1.0 # 2.0
 1.3 # 2.6
@@ -77,7 +79,8 @@ var arr2 = [ 2.0, 2.6, 2.4, 2.7, 2.8, 3.0 ] -> All Y values
 </pre>
 
 Matching
-
-arr1[0] -> arr2[0]<br>
-...<br>
-arr1[i] -> arr2[i]   == X -> Y<br>
+<pre>
+arr1[0] -> arr2[0]
+...
+arr1[i] -> arr2[i]   == X -> Y
+</pre>
