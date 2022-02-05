@@ -46,11 +46,11 @@ Returning array with arr[0] = k and arr[1] = d and NaN on failure. Using functio
 <br><br>
 <li><code>predict_y(k,d,y)</code></li>
 Calcutaing x with given parameters from <code>regression_function</code><br>
-Returning array with arr[0] = k and arr[1] = d and NaN on failure.
+Returning x and NaN on failure.
 <br><br>
 <li><code>predict_x(k,d,x)</code></li>
 Calcutaing y with given parameters from <code>regression_function</code><br>
-Returning array with arr[0] = k and arr[1] = d and NaN on failure.
+Returning y and NaN on failure.
 <br><br>
 
 <h2>Notes</h2>
